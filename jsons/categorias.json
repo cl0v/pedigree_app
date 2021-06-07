@@ -1,0 +1,66 @@
+[
+    {
+      "img": "assets/images/hamster.png",
+      "categoria": "Hamster",
+      "color": 4294954112,
+      "especies": [
+        {
+          "img": "assets/images/hamsters/hamster_1.jpg",
+          "nome": "rotwailer"
+        },
+        {
+          "img": "assets/images/hamsters/hamster_1.jpg",
+          "nome": "picher"
+        }
+      ]
+    },
+    {
+      "img": "assets/images/cat.png",
+      "categoria": "Gato",
+      "color": 4287679225,
+      "especies": [
+        {
+          "img": "assets/images/hamsters/hamster_1.jpg",
+          "nome": "Persa"
+        },
+        {
+          "img": "assets/images/hamsters/hamster_1.jpg",
+          "nome": "Chaninha"
+        }
+      ]
+    },
+    {
+      "img": "assets/images/bunny.png",
+      "categoria": "Coelho",
+      "color": 4289058471,
+      "especies": [
+        {
+          "img": "assets/images/hamsters/hamster_1.jpg",
+          "nome": "rotwailer"
+        },
+        {
+          "img": "assets/images/hamsters/hamster_1.jpg",
+          "nome": "picher"
+        }
+      ]
+    },
+    {
+      "img": "assets/images/dog.png",
+      "categoria": "Cachorro",
+      "color": 4293892762,
+      "especies": [
+        {
+          "img": "assets/images/hamsters/hamster_1.jpg",
+          "nome": "Rotwailer"
+        },
+        {
+          "img": "assets/images/hamsters/hamster_1.jpg",
+          "nome": "Poodle"
+        },
+        {
+          "img": "assets/images/hamsters/hamster_1.jpg",
+          "nome": "Fila"
+        }
+      ]
+    }
+  ]
