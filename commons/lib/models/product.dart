@@ -45,6 +45,8 @@ class Product {
     );
   }
 
+
+
   factory Product.fromSnap(DocumentSnapshot<Map<String, dynamic>> snap) =>
       Product.fromMap(snap.data()!)..id = snap.reference.id;
 
@@ -73,6 +75,28 @@ class CategoriaFilhote {
     final Map<String, dynamic> data = new Map<String, dynamic>();
     data[pCategory] = this.category;
     data[pBreed] = this.breed;
+    return data;
+  }
+}
+
+
+
+class Categoria {
+  String category;
+  String breed;
+
+  Categoria({required this.category, required this.breed});
+
+  Categoria.fromJson(Map<String, dynamic> json)
+      : this(
+          category: json['category'],
+          breed: json['breed'],
+        );
+
+  Map<String, dynamic> toMap() {
+    final Map<String, dynamic> data = new Map<String, dynamic>();
+    data['category'] = this.category;
+    data['breed'] = this.breed;
     return data;
   }
 }
